@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AlignIcon from "../../icons/AlignIcon";
 import CloseIcon from "../../icons/CloseIcon";
 import LocationIcon from "../../icons/LocationIcon";
@@ -49,13 +50,13 @@ function PageHeader() {
         }`}
       >
         <div className="w-full flex items-center justify-between max-w-[1248px]">
-          <div className="cursor-pointer ml-[10px] hover:scale-105 transition-all">
+          <Link className="cursor-pointer ml-[10px] hover:scale-105 transition-all" to="/">
             <Logo />
-          </div>
+          </Link>
           <div className="lg:flex justify-between w-[40%] items-center hidden">
-            <div className="font-bold text-[#FD3939] text-[20px] hover:text-[#FD3939] cursor-pointer font-sans hover:scale-105 transition-all">
+            <Link className="font-bold text-[#FD3939] text-[20px] hover:text-[#FD3939] cursor-pointer font-sans hover:scale-105 transition-all" to="/">
               {headerValue.home}
-            </div>
+            </Link>
             <div className="font-bold text-[#FCA4A4] text-[20px] hover:text-[#FD3939] cursor-pointer font-sans hover:scale-105 transition-all">
               {headerValue.product}
             </div>
@@ -77,9 +78,9 @@ function PageHeader() {
         } shadow-xl pb-[10px] w-full bg-white`}
       >
         <div className="w-full flex items-center justify-end">
-          <div className="font-bold text-[#FD3939] text-[20px] hover:text-[#FD3939] cursor-pointer font-sans py-[4px] pr-[40px]">
+          <Link className="font-bold text-[#FD3939] text-[20px] hover:text-[#FD3939] cursor-pointer font-sans py-[4px] pr-[40px]" to="/">
             {headerValue.home}
-          </div>
+          </Link>
         </div>
         <div className="w-full flex items-center justify-end">
           <div className="font-bold text-[#FCA4A4] text-[20px] hover:text-[#FD3939] cursor-pointer font-sans py-[4px] pr-[40px]">

@@ -1,21 +1,21 @@
-export default function MultiArrowRight() {
+export default function DownArrow() {
   return (
     <svg
       width="24"
       height="24"
-      viewBox="0 0 25 25"
+      viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M13.8397 17.5373L18.8397 12.5373L13.8397 7.53731"
+        d="M12 5V19"
         stroke="#FD3939"
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
-        d="M6.83966 17.5373L11.8397 12.5373L6.83966 7.53731"
+        d="M19 12L12 19L5 12"
         stroke="#FD3939"
         stroke-width="2"
         stroke-linecap="round"
