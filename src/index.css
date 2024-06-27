@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.profile-icon:hover path,
+.profile-icon:hover ellipse {
+  fill: #FD3939; 
+}
+
+.profile-icon {
+  cursor: pointer;
+}
+
+.align-icon {
+  cursor: pointer;
+}
+
+.heart-icon:hover path {
+  fill: #FD3939; 
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+  display: none; /* Ẩn thanh cuộn cho Chrome, Safari và Opera */
+  }
+  .no-scrollbar {
+  -ms-overflow-style: none; /* Ẩn thanh cuộn cho IE và Edge */
+  scrollbar-width: none; /* Ẩn thanh cuộn cho Firefox */
+  }
+}
