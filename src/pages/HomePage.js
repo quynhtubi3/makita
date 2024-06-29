@@ -9,7 +9,7 @@ import DownArrow from "../icons/DownArrow";
 function HomePage() {
   return (
     <div className="flex justify-center flex-wrap">
-      <PageHeader />
+      <PageHeader index={1} />
       <div className="h-[1500px] z-0 pt-[104px] absolute w-full bg-[url('/src/pictures/Home.png')] bg-cover bg-center">
         <Carousel autoplay>
           <div className="w-full h-[290px] bg-[#FFD3D3]"></div>
@@ -20,8 +20,8 @@ function HomePage() {
         <div className="flex justify-center flex-wrap max-w-[2000px] mx-auto">
           <div className="font-bold text-[20px] w-[65%] justify-start flex mt-[30px] text-[#FD3939]">
             <div className="flex justify-start items-center">
-                <div className="pr-[6px]">Sản phẩm mới</div>
-                <TickIcon />
+              <div className="pr-[6px]">Sản phẩm mới</div>
+              <TickIcon />
             </div>
           </div>
           <div className="overflow-auto flex min-h-[300px] items-center w-[69%] justify-start no-scrollbar">
@@ -33,16 +33,16 @@ function HomePage() {
           </div>
           <div className="font-bold text-[16px] w-[65%] justify-end flex mt-[10px] text-[#FD3939]">
             <div className="flex justify-start items-center cursor-pointer hover:scale-105 transition-all">
-                <div className="pr-[2px] pb-[4px]">Xem tất cả sản phẩm</div>
-                <MultiArrowRight />
+              <div className="pr-[2px] pb-[4px]">Xem tất cả sản phẩm</div>
+              <MultiArrowRight />
             </div>
           </div>
         </div>
         <div className="flex justify-center flex-wrap max-w-[2000px] mx-auto">
           <div className="font-bold text-[20px] w-[65%] justify-start flex mt-[30px] text-[#FD3939]">
             <div className="flex justify-start items-center">
-                <div className="pr-[6px]">Giảm giá nhiều</div>
-                <DownArrow />
+              <div className="pr-[6px]">Giảm giá nhiều</div>
+              <DownArrow />
             </div>
           </div>
           <div className="overflow-auto flex min-h-[300px] items-center w-[69%] justify-start no-scrollbar">
@@ -54,8 +54,8 @@ function HomePage() {
           </div>
           <div className="font-bold text-[16px] w-[65%] justify-end flex mt-[10px] text-[#FD3939]">
             <div className="flex justify-start items-center cursor-pointer hover:scale-105 transition-all">
-                <div className="pr-[2px] pb-[4px]">Xem tất cả sản phẩm</div>
-                <MultiArrowRight />
+              <div className="pr-[2px] pb-[4px]">Xem tất cả sản phẩm</div>
+              <MultiArrowRight />
             </div>
           </div>
         </div>
