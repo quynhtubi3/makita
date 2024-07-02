@@ -4,13 +4,16 @@ import PageHeader from "../components/header/PageHeader";
 import TickIcon from "../icons/TickIcon";
 import MultiArrowRight from "../icons/MultiArrowRight";
 import DownArrow from "../icons/DownArrow";
+import { Link } from "react-router-dom";
 
 
 function HomePage() {
+
+
   return (
     <div className="flex justify-center flex-wrap">
       <PageHeader index={1} />
-      <div className="h-[1500px] z-0 pt-[104px] absolute w-full bg-[url('/src/pictures/Home.png')] bg-cover bg-center">
+      <div className="h-fit z-0 pt-[104px] absolute w-full bg-[url('/src/pictures/Home.png')] bg-cover bg-center">
         <Carousel autoplay>
           <div className="w-full h-[290px] bg-[#FFD3D3]"></div>
           <div className="w-full h-[290px] bg-[#7ed7f1]"></div>
@@ -32,13 +35,13 @@ function HomePage() {
             ))}
           </div>
           <div className="font-bold text-[16px] w-[65%] justify-end flex mt-[10px] text-[#FD3939]">
-            <div className="flex justify-start items-center cursor-pointer hover:scale-105 transition-all">
+            <Link className="flex justify-start items-center cursor-pointer hover:scale-105 transition-all" to="/product">
               <div className="pr-[2px] pb-[4px]">Xem tất cả sản phẩm</div>
               <MultiArrowRight />
-            </div>
+            </Link>
           </div>
         </div>
-        <div className="flex justify-center flex-wrap max-w-[2000px] mx-auto">
+        <div className="flex justify-center flex-wrap max-w-[2000px] mx-auto pb-[100px]">
           <div className="font-bold text-[20px] w-[65%] justify-start flex mt-[30px] text-[#FD3939]">
             <div className="flex justify-start items-center">
               <div className="pr-[6px]">Giảm giá nhiều</div>
@@ -53,13 +56,13 @@ function HomePage() {
             ))}
           </div>
           <div className="font-bold text-[16px] w-[65%] justify-end flex mt-[10px] text-[#FD3939]">
-            <div className="flex justify-start items-center cursor-pointer hover:scale-105 transition-all">
+            <Link className="flex justify-start items-center cursor-pointer hover:scale-105 transition-all" to="/product">
               <div className="pr-[2px] pb-[4px]">Xem tất cả sản phẩm</div>
               <MultiArrowRight />
-            </div>
+            </Link>
           </div>
         </div>
-        <div className="bg-[#D9D9D9] h-[100px] absolute w-full bottom-0"></div>
+        <div className="bg-[#D9D9D9] h-[100px] relative w-full bottom-0"></div>
       </div>
     </div>
   );

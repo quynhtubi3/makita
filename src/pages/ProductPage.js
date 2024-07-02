@@ -81,10 +81,10 @@ function ProductPage() {
             </div>
           </div>
         </div>
-        <div className="sm:w-[80%] w-full pt-[20px] justify-end mb-[140px] flex">
+        <div className="sm:w-[80%] w-full pt-[20px] justify-end pb-[100px] flex">
           <Pagination defaultCurrent={1} total={10} />
         </div>
-        <div className="bg-[#D9D9D9] h-[100px] absolute w-full bottom-0"></div>
+        <div className="bg-[#D9D9D9] h-[100px] relative w-full bottom-0"></div>
       </div>
     </div>
   );

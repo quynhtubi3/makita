@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 import HeartIcon from "../icons/HeartIcon";
 import TempPic from "../pictures/TempPic";
 
-export default function ProductCard() {
+export default function ProductCard({id}) {
   return (
-    <div className="bg-[#FD3939] w-[180px] h-[240px] rounded-[4px] flex justify-center items-center hover:bg-[#FCA4A4] hover:scale-105 transition-all hover:shadow-md">
+    <Link className="bg-[#FD3939] w-[180px] h-[240px] rounded-[4px] flex justify-center items-center hover:bg-[#FCA4A4] hover:scale-105 transition-all hover:shadow-md"
+    to={`/productdetail/${id}`}>
       <div className="bg-[#FFFFFF] w-[160px] h-[220px] rounded-[4px] flex justify-center flex-wrap">
         <div className="flex justify-center pt-[4px] flex-wrap w-full">
           <TempPic />
@@ -17,6 +19,6 @@ export default function ProductCard() {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

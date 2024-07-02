@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\entities\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\entities\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\entities\\actions\\output.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\entities\\actions\\output.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\entities\\actions\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\entities\\actions\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\services\\accountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\context\\makitacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\context\\makitacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\iservice\\iaccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\iservice\\iaccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|d:\\projects\\vscode\\mine\\makita\\source\\makita\\makita\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CB3465A-2627-43DA-8BE6-17652410EF52}|makita\\makita.csproj|solutionrelative:makita\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductType.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\ProductType.cs",
+              "RelativeDocumentMoniker": "makita\\Entities\\ProductType.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\ProductType.cs",
+              "RelativeToolTip": "makita\\Entities\\ProductType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:16:17.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "makita\\Entities\\Cart.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Cart.cs",
+              "RelativeToolTip": "makita\\Entities\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:40:19.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "makita\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "makita\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAgwEkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:11:50.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\appsettings.json",
+              "RelativeDocumentMoniker": "makita\\appsettings.json",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\appsettings.json",
+              "RelativeToolTip": "makita\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T08:57:14.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MakitaContext.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Context\\MakitaContext.cs",
+              "RelativeDocumentMoniker": "makita\\Context\\MakitaContext.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Context\\MakitaContext.cs",
+              "RelativeToolTip": "makita\\Context\\MakitaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:25:16.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountServices.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Services\\AccountServices.cs",
+              "RelativeDocumentMoniker": "makita\\Services\\AccountServices.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Services\\AccountServices.cs",
+              "RelativeToolTip": "makita\\Services\\AccountServices.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:22:08.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "makita\\Entities\\Account.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Account.cs",
+              "RelativeToolTip": "makita\\Entities\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:39:05.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "makita\\Entities\\Product.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Product.cs",
+              "RelativeToolTip": "makita\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:29:56.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Output.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Actions\\Output.cs",
+              "RelativeDocumentMoniker": "makita\\Entities\\Actions\\Output.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Actions\\Output.cs",
+              "RelativeToolTip": "makita\\Entities\\Actions\\Output.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:28:10.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Program.cs",
+              "RelativeDocumentMoniker": "makita\\Program.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Program.cs",
+              "RelativeToolTip": "makita\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T03:07:38.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Input.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Actions\\Input.cs",
+              "RelativeDocumentMoniker": "makita\\Entities\\Actions\\Input.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\Entities\\Actions\\Input.cs",
+              "RelativeToolTip": "makita\\Entities\\Actions\\Input.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T03:11:35.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAccountServices.cs",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\IService\\IAccountServices.cs",
+              "RelativeDocumentMoniker": "makita\\IService\\IAccountServices.cs",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\IService\\IAccountServices.cs",
+              "RelativeToolTip": "makita\\IService\\IAccountServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T09:29:43.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "makita\\appsettings.Development.json",
+              "ToolTip": "D:\\Projects\\VSCode\\Mine\\makita\\source\\makita\\makita\\appsettings.Development.json",
+              "RelativeToolTip": "makita\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T08:57:18.527Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

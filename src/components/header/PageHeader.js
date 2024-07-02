@@ -21,6 +21,11 @@ function PageHeader({ index }) {
     username: "",
     password: "",
   });
+  const [signUpDetail, setSignUpDetail] = useState({
+    username: "",
+    password: "",
+    confirmPassword: "",
+  });
   const [reload, setReload] = useState(false);
 
   const isLogged = Cookie.get("isLogged");
@@ -35,19 +40,41 @@ function PageHeader({ index }) {
     account: "Tài khoản",
   };
 
-  const onHandleLogIn = () => {
-    const res = UserApi.Login(userDetail);
-    console.log(res);
-    if (res === 1) {
+  const onHandleLogIn = async () => {
+    const res = await UserApi.Login({
+      username: userDetail.username,
+      password: userDetail.password,
+    });
+    if (res.data.res === 0) {
       Cookie.set("isLogged", true);
       setVisible(false);
       setModal({ logIn: false });
-      message.success("Đăng nhập thành công");
+      message.success(res.data.note);
       setReload(!reload);
     } else {
-      message.error("Sai tài khoản hoặc mật khẩu");
+      message.error(res.data.note);
     }
   };
+
+  const onHandleSignUp = async () => {
+    if (signUpDetail.password === signUpDetail.confirmPassword) {
+      const res = await UserApi.SignUp({
+        username: signUpDetail.username,
+        password: signUpDetail.password,
+        confirmPassword: signUpDetail.confirmPassword,
+      });
+      if (res.data.res === 0) {
+        setModal({ signUp: false });
+        message.success(res.data.note);
+        setReload(!reload);
+      } else {
+        message.error(res.data.note);
+      }
+    } else {
+      message.error("Mật khẩu không hợp lệ");
+    }
+  };
+
   const onHandleLogOut = () => {
     Cookie.set("isLogged", false);
     setVisible(false);
@@ -63,7 +90,7 @@ function PageHeader({ index }) {
   }, [reload]);
 
   return (
-    <div className="fixed top-0 z-50 w-full">
+    <div className="fixed top-0 z-50 w-[100%]">
       <Modal
         open={modal.logIn}
         onCancel={() =>
@@ -88,7 +115,11 @@ function PageHeader({ index }) {
           >
             Hủy
           </Button>,
-          <Button danger defaultValue={""}>
+          <Button
+            danger
+            defaultValue={""}
+            onClick={() => setModal({ signUp: true })}
+          >
             Đăng ký
           </Button>,
           <Button
@@ -152,7 +183,7 @@ function PageHeader({ index }) {
           >
             Hủy
           </Button>,
-          <Button danger type="primary">
+          <Button danger type="primary" onClick={() => onHandleSignUp()}>
             Đăng ký
           </Button>,
         ]}
@@ -160,23 +191,41 @@ function PageHeader({ index }) {
         <div>
           <div>Tên đăng nhập</div>
           <div>
-            <Input required></Input>
+            <Input
+              onChange={(event) =>
+                setSignUpDetail((pre) => {
+                  return { ...pre, username: event.target.value };
+                })
+              }
+            ></Input>
           </div>
         </div>
         <div>
           <div>Mật khẩu</div>
           <div>
-            <Input.Password></Input.Password>
+            <Input.Password
+              onChange={(event) =>
+                setSignUpDetail((pre) => {
+                  return { ...pre, password: event.target.value };
+                })
+              }
+            ></Input.Password>
           </div>
         </div>
         <div className="mb-[20px]">
           <div>Nhập lại mật khẩu</div>
           <div>
-            <Input.Password></Input.Password>
+            <Input.Password
+              onChange={(event) =>
+                setSignUpDetail((pre) => {
+                  return { ...pre, confirmPassword: event.target.value };
+                })
+              }
+            ></Input.Password>
           </div>
         </div>
       </Modal>
-      <div className="bg-white flex justify-start w-full min-h-[24px]">
+      <div className="bg-white flex justify-start w-[100%] min-h-[24px]">
         <div className="flex items-center px-[10px]">
           <LocationIcon />
           <div className="text-[#C7C3C3] ml-[4px] font-bold lg:text-[16px] text-[12px]">
